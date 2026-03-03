@@ -1,0 +1,338 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Tricentis Demo Web Shop" [ref=e6]:
+        - /url: /
+        - img "Tricentis Demo Web Shop" [ref=e7]
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Register" [ref=e12]:
+            - /url: /register
+        - listitem [ref=e13]:
+          - link "Log in" [ref=e14]:
+            - /url: /login
+        - listitem [ref=e15]:
+          - link "Shopping cart (0)" [ref=e16]:
+            - /url: /cart
+            - generic [ref=e17]: Shopping cart
+            - generic [ref=e18]: (0)
+        - listitem [ref=e19]:
+          - link "Wishlist (0)" [ref=e20]:
+            - /url: /wishlist
+            - generic [ref=e21]: Wishlist
+            - generic [ref=e22]: (0)
+      - generic [ref=e24]:
+        - status [ref=e25]
+        - textbox [ref=e26]: Search store
+        - button "Search" [ref=e27] [cursor=pointer]
+    - list [ref=e29]:
+      - listitem [ref=e30]:
+        - link "Books" [ref=e31]:
+          - /url: /books
+      - listitem [ref=e32]:
+        - link "Computers" [ref=e33]:
+          - /url: /computers
+      - listitem [ref=e34]:
+        - link "Electronics" [ref=e35]:
+          - /url: /electronics
+      - listitem [ref=e36]:
+        - link "Apparel & Shoes" [ref=e37]:
+          - /url: /apparel-shoes
+      - listitem [ref=e38]:
+        - link "Digital downloads" [ref=e39]:
+          - /url: /digital-downloads
+      - listitem [ref=e40]:
+        - link "Jewelry" [ref=e41]:
+          - /url: /jewelry
+      - listitem [ref=e42]:
+        - link "Gift Cards" [ref=e43]:
+          - /url: /gift-cards
+    - generic:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - strong [ref=e47]: Categories
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Books" [ref=e51]:
+                - /url: /books
+            - listitem [ref=e52]:
+              - link "Computers" [ref=e53]:
+                - /url: /computers
+            - listitem [ref=e54]:
+              - link "Electronics" [ref=e55]:
+                - /url: /electronics
+            - listitem [ref=e56]:
+              - link "Apparel & Shoes" [ref=e57]:
+                - /url: /apparel-shoes
+            - listitem [ref=e58]:
+              - link "Digital downloads" [ref=e59]:
+                - /url: /digital-downloads
+            - listitem [ref=e60]:
+              - link "Jewelry" [ref=e61]:
+                - /url: /jewelry
+            - listitem [ref=e62]:
+              - link "Gift Cards" [ref=e63]:
+                - /url: /gift-cards
+        - generic [ref=e64]:
+          - strong [ref=e66]: Manufacturers
+          - list [ref=e68]:
+            - listitem [ref=e69]:
+              - link "Tricentis" [ref=e70]:
+                - /url: /tricentis
+        - generic [ref=e71]:
+          - strong [ref=e73]: Popular tags
+          - generic [ref=e74]:
+            - list [ref=e76]:
+              - listitem [ref=e77]:
+                - link "apparel" [ref=e78]:
+                  - /url: /producttag/4/apparel
+              - listitem [ref=e79]:
+                - link "awesome" [ref=e80]:
+                  - /url: /producttag/8/awesome
+              - listitem [ref=e81]:
+                - link "book" [ref=e82]:
+                  - /url: /producttag/10/book
+              - listitem [ref=e83]:
+                - link "camera" [ref=e84]:
+                  - /url: /producttag/13/camera
+              - listitem [ref=e85]:
+                - link "cell" [ref=e86]:
+                  - /url: /producttag/12/cell
+              - listitem [ref=e87]:
+                - link "compact" [ref=e88]:
+                  - /url: /producttag/9/compact
+              - listitem [ref=e89]:
+                - link "computer" [ref=e90]:
+                  - /url: /producttag/6/computer
+              - listitem [ref=e91]:
+                - link "cool" [ref=e92]:
+                  - /url: /producttag/3/cool
+              - listitem [ref=e93]:
+                - link "digital" [ref=e94]:
+                  - /url: /producttag/16/digital
+              - listitem [ref=e95]:
+                - link "jeans" [ref=e96]:
+                  - /url: /producttag/14/jeans
+              - listitem [ref=e97]:
+                - link "jewelry" [ref=e98]:
+                  - /url: /producttag/11/jewelry
+              - listitem [ref=e99]:
+                - link "nice" [ref=e100]:
+                  - /url: /producttag/1/nice
+              - listitem [ref=e101]:
+                - link "shirt" [ref=e102]:
+                  - /url: /producttag/5/shirt
+              - listitem [ref=e103]:
+                - link "shoes" [ref=e104]:
+                  - /url: /producttag/7/shoes
+              - listitem [ref=e105]:
+                - link "TCP" [ref=e106]:
+                  - /url: /producttag/19/tcp
+            - link "View all" [ref=e108]:
+              - /url: /producttag/all
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - strong [ref=e112]: Newsletter
+          - generic [ref=e114]:
+            - text: "Sign up for our newsletter:"
+            - textbox [ref=e116]
+            - button "Subscribe" [ref=e118] [cursor=pointer]
+        - generic [ref=e119]:
+          - strong [ref=e121]: Community poll
+          - generic [ref=e123]:
+            - strong [ref=e124]: Do you like nopCommerce?
+            - list [ref=e125]:
+              - listitem [ref=e126]:
+                - radio "Excellent" [ref=e127]
+                - text: Excellent
+              - listitem [ref=e128]:
+                - radio "Good" [ref=e129]
+                - text: Good
+              - listitem [ref=e130]:
+                - radio "Poor" [ref=e131]
+                - text: Poor
+              - listitem [ref=e132]:
+                - radio "Very bad" [ref=e133]
+                - text: Very bad
+            - button "Vote" [ref=e135] [cursor=pointer]
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - link [ref=e141]:
+              - /url: https://www.tricentis.com/speed/
+            - img [ref=e142]
+            - generic [ref=e143]: Speed | Tricentis
+            - generic:
+              - generic [ref=e144] [cursor=pointer]: Prev
+              - generic [ref=e145] [cursor=pointer]: Next
+          - generic [ref=e146]:
+            - generic [ref=e147] [cursor=pointer]: "1"
+            - generic [ref=e148] [cursor=pointer]: "2"
+        - generic [ref=e149]:
+          - heading "Welcome to our store" [level=2] [ref=e151]
+          - generic [ref=e152]:
+            - paragraph [ref=e153]: Welcome to the new Tricentis store!
+            - paragraph [ref=e154]: Feel free to shop around and explore everything.
+        - generic [ref=e155]:
+          - strong [ref=e157]: Featured products
+          - generic [ref=e159]:
+            - link "Picture of $25 Virtual Gift Card" [ref=e161]:
+              - /url: /25-virtual-gift-card
+              - img "Picture of $25 Virtual Gift Card" [ref=e162]
+            - generic [ref=e163]:
+              - heading "$25 Virtual Gift Card" [level=2] [ref=e164]:
+                - link "$25 Virtual Gift Card" [ref=e165]:
+                  - /url: /25-virtual-gift-card
+              - generic "823 review(s)" [ref=e166]
+              - generic [ref=e169]:
+                - generic [ref=e171]: "25.00"
+                - button "Add to cart" [ref=e173] [cursor=pointer]
+          - generic [ref=e175]:
+            - link "Picture of 14.1-inch Laptop" [ref=e177]:
+              - /url: /141-inch-laptop
+              - img "Picture of 14.1-inch Laptop" [ref=e178]
+            - generic [ref=e179]:
+              - heading "14.1-inch Laptop" [level=2] [ref=e180]:
+                - link "14.1-inch Laptop" [ref=e181]:
+                  - /url: /141-inch-laptop
+              - generic "1497 review(s)" [ref=e182]
+              - generic [ref=e185]:
+                - generic [ref=e187]: "1590.00"
+                - button "Add to cart" [ref=e189] [cursor=pointer]
+          - generic [ref=e191]:
+            - link "Picture of Build your own cheap computer" [ref=e193]:
+              - /url: /build-your-cheap-own-computer
+              - img "Picture of Build your own cheap computer" [ref=e194]
+            - generic [ref=e195]:
+              - heading "Build your own cheap computer" [level=2] [ref=e196]:
+                - link "Build your own cheap computer" [ref=e197]:
+                  - /url: /build-your-cheap-own-computer
+              - generic "826 review(s)" [ref=e198]
+              - generic [ref=e201]:
+                - generic [ref=e203]: "800.00"
+                - button "Add to cart" [ref=e205] [cursor=pointer]
+          - generic [ref=e207]:
+            - link "Picture of Build your own computer" [ref=e209]:
+              - /url: /build-your-own-computer
+              - img "Picture of Build your own computer" [ref=e210]
+            - generic [ref=e211]:
+              - heading "Build your own computer" [level=2] [ref=e212]:
+                - link "Build your own computer" [ref=e213]:
+                  - /url: /build-your-own-computer
+              - generic "335 review(s)" [ref=e214]
+              - generic [ref=e217]:
+                - generic [ref=e219]: "1200.00"
+                - button "Add to cart" [ref=e221] [cursor=pointer]
+          - generic [ref=e223]:
+            - link "Picture of Build your own expensive computer" [ref=e225]:
+              - /url: /build-your-own-expensive-computer-2
+              - img "Picture of Build your own expensive computer" [ref=e226]
+            - generic [ref=e227]:
+              - heading "Build your own expensive computer" [level=2] [ref=e228]:
+                - link "Build your own expensive computer" [ref=e229]:
+                  - /url: /build-your-own-expensive-computer-2
+              - generic "425 review(s)" [ref=e230]
+              - generic [ref=e233]:
+                - generic [ref=e235]: "1800.00"
+                - button "Add to cart" [ref=e237] [cursor=pointer]
+          - generic [ref=e239]:
+            - link "Picture of Simple Computer" [ref=e241]:
+              - /url: /simple-computer
+              - img "Picture of Simple Computer" [ref=e242]
+            - generic [ref=e243]:
+              - heading "Simple Computer" [level=2] [ref=e244]:
+                - link "Simple Computer" [ref=e245]:
+                  - /url: /simple-computer
+              - generic "386 review(s)" [ref=e246]
+              - generic [ref=e249]:
+                - generic [ref=e251]: "800.00"
+                - button "Add to cart" [ref=e253] [cursor=pointer]
+  - generic [ref=e254]:
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - heading "Information" [level=3] [ref=e257]
+        - list [ref=e258]:
+          - listitem [ref=e259]:
+            - link "Sitemap" [ref=e260]:
+              - /url: /sitemap
+          - listitem [ref=e261]:
+            - link "Shipping & Returns" [ref=e262]:
+              - /url: /shipping-returns
+          - listitem [ref=e263]:
+            - link "Privacy Notice" [ref=e264]:
+              - /url: /privacy-policy
+          - listitem [ref=e265]:
+            - link "Conditions of Use" [ref=e266]:
+              - /url: /conditions-of-use
+          - listitem [ref=e267]:
+            - link "About us" [ref=e268]:
+              - /url: /about-us
+          - listitem [ref=e269]:
+            - link "Contact us" [ref=e270]:
+              - /url: /contactus
+      - generic [ref=e271]:
+        - heading "Customer service" [level=3] [ref=e272]
+        - list [ref=e273]:
+          - listitem [ref=e274]:
+            - link "Search" [ref=e275]:
+              - /url: /search
+          - listitem [ref=e276]:
+            - link "News" [ref=e277]:
+              - /url: /news
+          - listitem [ref=e278]:
+            - link "Blog" [ref=e279]:
+              - /url: /blog
+          - listitem [ref=e280]:
+            - link "Recently viewed products" [ref=e281]:
+              - /url: /recentlyviewedproducts
+          - listitem [ref=e282]:
+            - link "Compare products list" [ref=e283]:
+              - /url: /compareproducts
+          - listitem [ref=e284]:
+            - link "New products" [ref=e285]:
+              - /url: /newproducts
+      - generic [ref=e286]:
+        - heading "My account" [level=3] [ref=e287]
+        - list [ref=e288]:
+          - listitem [ref=e289]:
+            - link "My account" [ref=e290]:
+              - /url: /customer/info
+          - listitem [ref=e291]:
+            - link "Orders" [ref=e292]:
+              - /url: /customer/orders
+          - listitem [ref=e293]:
+            - link "Addresses" [ref=e294]:
+              - /url: /customer/addresses
+          - listitem [ref=e295]:
+            - link "Shopping cart" [ref=e296]:
+              - /url: /cart
+          - listitem [ref=e297]:
+            - link "Wishlist" [ref=e298]:
+              - /url: /wishlist
+      - generic [ref=e299]:
+        - heading "Follow us" [level=3] [ref=e300]
+        - list [ref=e301]:
+          - listitem [ref=e302]:
+            - link "Facebook" [ref=e303]:
+              - /url: http://www.facebook.com/nopCommerce
+          - listitem [ref=e304]:
+            - link "Twitter" [ref=e305]:
+              - /url: https://twitter.com/nopCommerce
+          - listitem [ref=e306]:
+            - link "RSS" [ref=e307]:
+              - /url: /news/rss/1
+          - listitem [ref=e308]:
+            - link "YouTube" [ref=e309]:
+              - /url: http://www.youtube.com/user/nopCommerce
+          - listitem [ref=e310]:
+            - link "Google+" [ref=e311]:
+              - /url: https://plus.google.com/+nopcommerce
+    - generic [ref=e312]:
+      - text: Powered by
+      - link "nopCommerce" [ref=e313]:
+        - /url: http://www.nopcommerce.com/
+    - generic [ref=e314]: Copyright © 2026 Tricentis Demo Web Shop. All rights reserved.
+```

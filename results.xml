@@ -1,0 +1,455 @@
+<testsuites id="" name="" tests="9" failures="3" skipped="0" errors="0" time="77.91930399999998">
+<testsuite name="Reporter.spec.ts" timestamp="2026-03-03T07:37:01.702Z" hostname="chromium" tests="3" failures="1" skipped="0" time="23.637" errors="0">
+<testcase name="logotest" classname="Reporter.spec.ts" time="3.716">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporter-logotest-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="title test" classname="Reporter.spec.ts" time="15.779">
+<failure message="Reporter.spec.ts:11:5 title test" type="FAILURE">
+<![CDATA[  [chromium] › Reporter.spec.ts:11:5 › title test ──────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-chromium\error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-chromium-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-chromium-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-chromium-retry1\error-context.md
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-chromium-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-chromium-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-chromium-retry2\error-context.md
+
+    Retry #3 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-chromium-retry3\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-chromium-retry3\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-chromium-retry3\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporter-title-test-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium-retry1\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium-retry2\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium-retry3\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium-retry3\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-chromium-retry3\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="search test" classname="Reporter.spec.ts" time="4.142">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporter-search-test-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reporter.spec.ts" timestamp="2026-03-03T07:37:01.702Z" hostname="firefox" tests="3" failures="1" skipped="0" time="37.764" errors="0">
+<testcase name="logotest" classname="Reporter.spec.ts" time="4.875">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporter-logotest-firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="title test" classname="Reporter.spec.ts" time="24.884">
+<failure message="Reporter.spec.ts:11:5 title test" type="FAILURE">
+<![CDATA[  [firefox] › Reporter.spec.ts:11:5 › title test ───────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-firefox\error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-firefox-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-firefox-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-firefox-retry1\error-context.md
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-firefox-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-firefox-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-firefox-retry2\error-context.md
+
+    Retry #3 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-firefox-retry3\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-firefox-retry3\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-firefox-retry3\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporter-title-test-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox-retry1\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox-retry2\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox-retry3\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox-retry3\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-firefox-retry3\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="search test" classname="Reporter.spec.ts" time="8.005">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporter-search-test-firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reporter.spec.ts" timestamp="2026-03-03T07:37:01.702Z" hostname="webkit" tests="3" failures="1" skipped="0" time="30.684" errors="0">
+<testcase name="logotest" classname="Reporter.spec.ts" time="5.064">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporter-logotest-webkit\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="title test" classname="Reporter.spec.ts" time="19.282">
+<failure message="Reporter.spec.ts:11:5 title test" type="FAILURE">
+<![CDATA[  [webkit] › Reporter.spec.ts:11:5 › title test ────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-webkit\error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-webkit-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-webkit-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-webkit-retry1\error-context.md
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-webkit-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-webkit-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-webkit-retry2\error-context.md
+
+    Retry #3 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Demo Web Shop1"
+    Received string:    "Demo Web Shop"
+
+      10 |
+      11 | test('title test', async ({ page }) => {
+    > 12 |   expect(await page.title()).toContain("Demo Web Shop1");
+         |                              ^
+      13 | })
+      14 |
+      15 | test('search test', async ({ page }) => {
+        at D:\Playwright\tests\Reporter.spec.ts:12:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-webkit-retry3\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Reporter-title-test-webkit-retry3\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Reporter-title-test-webkit-retry3\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporter-title-test-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit-retry1\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit-retry2\error-context.md]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit-retry3\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit-retry3\video.webm]]
+
+[[ATTACHMENT|test-results\Reporter-title-test-webkit-retry3\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="search test" classname="Reporter.spec.ts" time="6.338">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporter-search-test-webkit\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
