@@ -12,5 +12,8 @@
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.9",
     "allure-playwright": "^3.5.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.1"
   }
 }

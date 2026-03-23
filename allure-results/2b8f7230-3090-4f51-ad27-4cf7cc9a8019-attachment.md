@@ -1,0 +1,694 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - region "Announcement" [ref=e6]:
+    - link "Welcome to our SPARKLECART | Your All in One Online Shop" [ref=e7] [cursor=pointer]:
+      - /url: /collections/all
+      - paragraph [ref=e8]:
+        - text: Welcome to our SPARKLECART | Your All in One Online Shop
+        - img
+  - banner [ref=e11]:
+    - heading "SparkleCart" [level=1] [ref=e12]:
+      - link "SparkleCart" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img "SparkleCart" [ref=e15]
+    - navigation [ref=e16]:
+      - list [ref=e17]:
+        - listitem [ref=e18]:
+          - link "Home" [ref=e19] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e20]: Home
+        - listitem [ref=e21]:
+          - link "Shop All" [ref=e22] [cursor=pointer]:
+            - /url: /collections/all
+            - generic [ref=e23]: Shop All
+        - listitem [ref=e24]:
+          - link "FAQs" [ref=e25] [cursor=pointer]:
+            - /url: /pages/faqs
+            - generic [ref=e26]: FAQs
+        - listitem [ref=e27]:
+          - link "Track Order" [ref=e28] [cursor=pointer]:
+            - /url: /pages/track-order
+            - generic [ref=e29]: Track Order
+        - listitem [ref=e30]:
+          - link "Contact" [ref=e31] [cursor=pointer]:
+            - /url: /pages/contact
+            - generic [ref=e32]: Contact
+    - generic [ref=e33]:
+      - group [ref=e35]:
+        - button "Search" [ref=e36] [cursor=pointer]:
+          - img [ref=e39]
+      - link "Log in" [ref=e41] [cursor=pointer]:
+        - /url: https://sparklecartonline.com/customer_authentication/redirect?locale=en&region_country=US
+        - img [ref=e44]
+        - generic [ref=e46]: Log in
+      - link "Cart" [ref=e47] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e49]
+        - generic [ref=e51]: Cart
+  - main [ref=e52]:
+    - heading "Browse our latest products" [level=2] [ref=e58]
+    - list [ref=e63]:
+      - listitem [ref=e64]:
+        - generic [ref=e66]:
+          - img "Home" [ref=e70]
+          - heading "Home" [level=3] [ref=e74]:
+            - link "Home" [ref=e75] [cursor=pointer]:
+              - /url: /collections/home
+              - text: Home
+              - img [ref=e77]
+      - listitem [ref=e79]:
+        - generic [ref=e81]:
+          - img "Beauty" [ref=e85]
+          - heading "Beauty" [level=3] [ref=e89]:
+            - link "Beauty" [ref=e90] [cursor=pointer]:
+              - /url: /collections/beauty
+              - text: Beauty
+              - img [ref=e92]
+      - listitem [ref=e94]:
+        - generic [ref=e96]:
+          - img "Lifestyle" [ref=e100]
+          - heading "Lifestyle" [level=3] [ref=e104]:
+            - link "Lifestyle" [ref=e105] [cursor=pointer]:
+              - /url: /collections/lifestyle
+              - text: Lifestyle
+              - img [ref=e107]
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - img "Candle Melting Lamp" [ref=e119]
+        - generic [ref=e122]: Sale
+      - generic [ref=e124]:
+        - heading "Candle Melting Lamp Sale" [level=3] [ref=e125]:
+          - link "Candle Melting Lamp Sale" [ref=e126] [cursor=pointer]:
+            - /url: /products/cross-border-simple-aromatherapy-wax-lamp-iron-art-wood-tabletop-night-light-romantic-bedside-lamp-fireless-essential-oil-melt-candle-lamp
+            - text: Candle Melting Lamp
+        - generic [ref=e130]:
+          - generic [ref=e131]: Regular price
+          - generic [ref=e133]: $79.98 USD
+          - generic [ref=e134]: Sale price
+          - generic [ref=e135]: $39.99 USD
+    - list "Slider" [ref=e146]:
+      - listitem [ref=e147]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - img "Candle Melting Lamp" [ref=e153]
+            - generic [ref=e156]: Sale
+          - generic [ref=e158]:
+            - heading "Candle Melting Lamp Sale" [level=3] [ref=e159]:
+              - link "Candle Melting Lamp Sale" [ref=e160] [cursor=pointer]:
+                - /url: /products/cross-border-simple-aromatherapy-wax-lamp-iron-art-wood-tabletop-night-light-romantic-bedside-lamp-fireless-essential-oil-melt-candle-lamp
+                - text: Candle Melting Lamp
+            - generic [ref=e164]:
+              - generic [ref=e165]: Regular price
+              - generic [ref=e167]: $79.98 USD
+              - generic [ref=e168]: Sale price
+              - generic [ref=e169]: $39.99 USD
+      - listitem [ref=e170]:
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - img "Electric Floor Scrubber" [ref=e176]
+            - generic [ref=e179]: Sale
+          - generic [ref=e181]:
+            - heading "Electric Floor Scrubber Sale" [level=3] [ref=e182]:
+              - link "Electric Floor Scrubber Sale" [ref=e183] [cursor=pointer]:
+                - /url: /products/new-7-in-1-cordless-electric-cleaning-brush-long-handle-retractable-bathroom-toilet-floor-electric-brush-electric-mop
+                - text: Electric Floor Scrubber
+            - generic [ref=e187]:
+              - generic [ref=e188]: Regular price
+              - generic [ref=e190]: $119.98 USD
+              - generic [ref=e191]: Sale price
+              - generic [ref=e192]: $59.99 USD
+      - listitem [ref=e193]:
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - img "Food Dicer" [ref=e199]
+            - generic [ref=e202]: Sale
+          - generic [ref=e204]:
+            - heading "Food Dicer Sale" [level=3] [ref=e205]:
+              - link "Food Dicer Sale" [ref=e206] [cursor=pointer]:
+                - /url: /products/household-kitchen-multi-functional-vegetable-cutter-cross-border-dicing-artifact-cutting-onion-carrot-potato-cutting-gadgets
+                - text: Food Dicer
+            - generic [ref=e210]:
+              - generic [ref=e211]: Regular price
+              - generic [ref=e213]: $49.98 USD
+              - generic [ref=e214]: Sale price
+              - generic [ref=e215]: $24.99 USD
+      - listitem [ref=e216]:
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - img "LED Bluetooth Waterproof Speaker" [ref=e222]
+            - generic [ref=e225]: Sale
+          - generic [ref=e227]:
+            - heading "LED Bluetooth Waterproof Speaker Sale" [level=3] [ref=e228]:
+              - link "LED Bluetooth Waterproof Speaker Sale" [ref=e229] [cursor=pointer]:
+                - /url: /products/big-suction-cup-waterproof-bluetooth-speaker-led-light-illuminating-waterproof-bathroom-bluetooth-speaker-portable-bluetooth-speaker
+                - text: LED Bluetooth Waterproof Speaker
+            - generic [ref=e233]:
+              - generic [ref=e234]: Regular price
+              - generic [ref=e236]: $59.98 USD
+              - generic [ref=e237]: Sale price
+              - generic [ref=e238]: $29.99 USD
+    - generic [ref=e241]:
+      - generic [ref=e247]:
+        - paragraph
+        - heading "4-in-1 Contour Pen" [level=2] [ref=e248]:
+          - strong [ref=e249]: 4-in-1 Contour Pen
+        - paragraph [ref=e251]: Simplify your makeup routine with the innovative 4-in-1 Contour Pen. This multifunctional makeup tool combines a lip liner, highlighter, eyeliner, and eyebrow pencil in one convenient pen, making it perfect for on-the-go touch-ups and versatile makeup applications. Whether you're creating a natural look or bold definition, this pen has everything you need for a complete, polished appearance.
+        - link "SHOP NOW" [ref=e252] [cursor=pointer]:
+          - /url: /products/4-in-1-makeup-pen-4-in-1-makeup-pen-4-in-1-lip-liner-highlighter-eyeliner-eyebrow-pencil-4in1-makeup-pen
+      - generic [ref=e258]:
+        - paragraph
+        - heading "Make Up Brush Cleaner" [level=2] [ref=e259]:
+          - strong [ref=e260]: Make Up Brush Cleaner
+        - paragraph [ref=e262]: Keep your makeup tools spotless and in perfect condition with the Automatic Quick-Drying Makeup Brush Cleaner. This beauty essential is designed to deep-clean your makeup brushes and beauty sponges efficiently, ensuring they remain hygienic and ready for flawless makeup application. Its fast-drying feature saves you time and ensures your brushes are ready for use in minutes.
+        - link "SHOP NOW" [ref=e263] [cursor=pointer]:
+          - /url: /products/beauty-tools-powder-puff-beauty-egg-deep-cleaning-box-automatic-quick-drying-brush-scrubber-cross-border-makeup-brush-cleaner
+      - generic [ref=e269]:
+        - paragraph
+        - heading "Brow Stamp" [level=2] [ref=e270]:
+          - strong [ref=e271]: Brow Stamp
+        - paragraph [ref=e273]: The Brow Stamp is a revolutionary makeup tool designed to help you achieve perfectly shaped and filled eyebrows with minimal effort. This easy-to-use stamp kit includes a variety of brow shapes and shades, allowing you to create flawless, natural-looking brows in seconds. Ideal for both beginners and makeup enthusiasts, the Brow Stamp simplifies your beauty routine, giving you consistent and beautiful results every time.
+        - link "SHOP NOW" [ref=e274] [cursor=pointer]:
+          - /url: /products/one-step-brow-stamp-shaping-kit
+    - generic [ref=e279]:
+      - region "Gallery Viewer" [ref=e281]:
+        - generic [ref=e282]:
+          - link "Skip to product information" [ref=e283] [cursor=pointer]:
+            - /url: "#ProductInfo-template--17654219276463__featured_product_c9g6Li"
+          - list [ref=e284]:
+            - listitem [ref=e285]:
+              - generic [ref=e287]:
+                - img [ref=e290]
+                - button "Open media 1 in modal":
+                  - generic [ref=e295]: Open media 1 in modal
+      - generic [ref=e297]:
+        - paragraph [ref=e298]: SparkleCart
+        - heading "Astronaut Starry Sky Lamp" [level=2] [ref=e299]
+        - status [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e303]:
+              - generic [ref=e304]: Regular price
+              - generic [ref=e306]: $79.98 USD
+              - generic [ref=e307]: Sale price
+              - generic [ref=e308]: $39.99 USD
+            - generic [ref=e309]: Sale
+        - generic [ref=e310]:
+          - link "Shipping" [ref=e311] [cursor=pointer]:
+            - /url: /policies/shipping-policy
+          - text: calculated at checkout.
+        - generic [ref=e312]:
+          - group "Specification" [ref=e313]:
+            - generic [ref=e314]: Specification
+            - radio "USB" [checked] [ref=e315]
+            - generic [ref=e316] [cursor=pointer]: USB
+          - group "Power source" [ref=e317]:
+            - generic [ref=e318]: Power source
+            - radio "Hold the star model white" [checked] [ref=e319]
+            - generic [ref=e320] [cursor=pointer]: Hold the star model white
+            - radio "Hug star black" [ref=e321]
+            - generic [ref=e322] [cursor=pointer]: Hug star black
+            - radio "Guitar white" [ref=e323]
+            - generic [ref=e324] [cursor=pointer]: Guitar white
+            - radio "Guitar black" [ref=e325]
+            - generic [ref=e326] [cursor=pointer]: Guitar black
+        - generic [ref=e327]:
+          - generic [ref=e328]: Quantity
+          - generic [ref=e330]:
+            - button "Decrease quantity for Astronaut Starry Sky Lamp" [ref=e331]:
+              - generic [ref=e332]: Decrease quantity for Astronaut Starry Sky Lamp
+              - generic:
+                - img
+            - spinbutton "Quantity" [ref=e333]: "1"
+            - button "Increase quantity for Astronaut Starry Sky Lamp" [ref=e334] [cursor=pointer]:
+              - generic [ref=e335]: Increase quantity for Astronaut Starry Sky Lamp
+              - generic:
+                - img
+        - generic [ref=e339]:
+          - button "Add to cart" [ref=e340] [cursor=pointer]:
+            - generic [ref=e341]: Add to cart
+          - generic [ref=e343]:
+            - iframe [ref=e347]:
+              - generic "PayPal" [ref=f2e2]:
+                - link "Pay with PayPal" [ref=f2e5] [cursor=pointer]
+            - link "More payment options" [ref=e349] [cursor=pointer]:
+              - /url: "#"
+        - group [ref=e351]:
+          - button "Share" [ref=e352] [cursor=pointer]:
+            - img [ref=e354]
+            - text: Share
+        - generic [ref=e358]:
+          - img "4.89 out of 5.0 stars" [ref=e359]:
+            - generic [ref=e360]: ★★★★★
+          - paragraph [ref=e361]:
+            - text: (550)
+            - generic [ref=e362]: 550 total reviews
+        - link "View full details" [ref=e363] [cursor=pointer]:
+          - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp
+          - text: View full details
+          - img [ref=e364]
+    - generic [ref=e370]:
+      - region "Gallery Viewer" [ref=e372]:
+        - generic [ref=e373]:
+          - link "Skip to product information" [ref=e374] [cursor=pointer]:
+            - /url: "#ProductInfo-template--17654219276463__featured_product_hJRNMz"
+          - list [ref=e375]:
+            - listitem [ref=e376]:
+              - generic [ref=e378]:
+                - img [ref=e381]
+                - button "Open media 1 in modal":
+                  - generic [ref=e386]: Open media 1 in modal
+      - generic [ref=e388]:
+        - paragraph [ref=e389]: SparkleCart
+        - heading "Thick Nail Clippers" [level=2] [ref=e390]
+        - status [ref=e391]:
+          - generic [ref=e392]:
+            - generic [ref=e394]:
+              - generic [ref=e395]: Regular price
+              - generic [ref=e397]: $59.98 USD
+              - generic [ref=e398]: Sale price
+              - generic [ref=e399]: $29.99 USD
+            - generic [ref=e400]: Sale
+        - generic [ref=e401]:
+          - link "Shipping" [ref=e402] [cursor=pointer]:
+            - /url: /policies/shipping-policy
+          - text: calculated at checkout.
+        - group "Specification" [ref=e404]:
+          - generic [ref=e405]: Specification
+          - radio "Medium [Silver]" [checked] [ref=e406]
+          - generic [ref=e407] [cursor=pointer]: Medium [Silver]
+          - radio "Medium [Black]" [ref=e408]
+          - generic [ref=e409] [cursor=pointer]: Medium [Black]
+          - radio "Large size [color titanium]" [ref=e410]
+          - generic [ref=e411] [cursor=pointer]: Large size [color titanium]
+          - radio "Large size [color titanium] + leather case" [ref=e412]
+          - generic [ref=e413] [cursor=pointer]: Large size [color titanium] + leather case
+          - radio "Large [color titanium] + leather case + nail file" [ref=e414]
+          - generic [ref=e415] [cursor=pointer]: Large [color titanium] + leather case + nail file
+          - radio "Large [color titanium] boxed" [ref=e416]
+          - generic [ref=e417] [cursor=pointer]: Large [color titanium] boxed
+          - radio "Large size [silver]" [ref=e418]
+          - generic [ref=e419] [cursor=pointer]: Large size [silver]
+          - radio "Large size [silver] + leather case" [ref=e420]
+          - generic [ref=e421] [cursor=pointer]: Large size [silver] + leather case
+          - radio "Large size [silver] + leather case + nail file" [ref=e422]
+          - generic [ref=e423] [cursor=pointer]: Large size [silver] + leather case + nail file
+          - radio "Large [silver] boxed" [ref=e424]
+          - generic [ref=e425] [cursor=pointer]: Large [silver] boxed
+          - radio "Large size [black]" [ref=e426]
+          - generic [ref=e427] [cursor=pointer]: Large size [black]
+          - radio "Large size [black] + leather case" [ref=e428]
+          - generic [ref=e429] [cursor=pointer]: Large size [black] + leather case
+          - radio "Large size [black] + leather case + nail file" [ref=e430]
+          - generic [ref=e431] [cursor=pointer]: Large size [black] + leather case + nail file
+          - radio "Large [black] boxed" [ref=e432]
+          - generic [ref=e433] [cursor=pointer]: Large [black] boxed
+          - radio "Large oblique mouth [silver]" [ref=e434]
+          - generic [ref=e435] [cursor=pointer]: Large oblique mouth [silver]
+          - radio "Large oblique mouth [black]" [ref=e436]
+          - generic [ref=e437] [cursor=pointer]: Large oblique mouth [black]
+          - radio "Black set" [ref=e438]
+          - generic [ref=e439] [cursor=pointer]: Black set
+          - radio "Silver set Variant sold out or unavailable" [ref=e440]
+          - generic [ref=e441] [cursor=pointer]:
+            - text: Silver set
+            - generic [ref=e442]: Variant sold out or unavailable
+        - generic [ref=e443]:
+          - generic [ref=e444]: Quantity
+          - generic [ref=e446]:
+            - button "Decrease quantity for Thick Nail Clippers" [ref=e447]:
+              - generic [ref=e448]: Decrease quantity for Thick Nail Clippers
+              - generic:
+                - img
+            - spinbutton "Quantity" [ref=e449]: "1"
+            - button "Increase quantity for Thick Nail Clippers" [ref=e450] [cursor=pointer]:
+              - generic [ref=e451]: Increase quantity for Thick Nail Clippers
+              - generic:
+                - img
+        - generic [ref=e455]:
+          - button "Add to cart" [ref=e456] [cursor=pointer]:
+            - generic [ref=e457]: Add to cart
+          - generic [ref=e459]:
+            - iframe [ref=e463]:
+              - generic "PayPal" [ref=f5e2]:
+                - link "Pay with PayPal" [ref=f5e5] [cursor=pointer]
+            - link "More payment options" [ref=e465] [cursor=pointer]:
+              - /url: "#"
+        - group [ref=e467]:
+          - button "Share" [ref=e468] [cursor=pointer]:
+            - img [ref=e470]
+            - text: Share
+        - generic [ref=e474]:
+          - img "5.0 out of 5.0 stars" [ref=e475]:
+            - generic [ref=e476]: ★★★★★
+          - paragraph [ref=e477]:
+            - text: (6)
+            - generic [ref=e478]: 6 total reviews
+        - link "View full details" [ref=e479] [cursor=pointer]:
+          - /url: /products/stainless-steel-large-large-opening-nail-clipper-nail-clipper-for-the-elderly-multifunctional-oblique-trimming-nail-clipper-portable
+          - text: View full details
+          - img [ref=e480]
+    - generic [ref=e486]:
+      - region "Gallery Viewer" [ref=e488]:
+        - generic [ref=e489]:
+          - link "Skip to product information" [ref=e490] [cursor=pointer]:
+            - /url: "#ProductInfo-template--17654219276463__featured_product_UBtP3X"
+          - list [ref=e491]:
+            - listitem [ref=e492]:
+              - generic [ref=e494]:
+                - img [ref=e497]
+                - button "Open media 1 in modal":
+                  - generic [ref=e502]: Open media 1 in modal
+      - generic [ref=e504]:
+        - paragraph [ref=e505]: SparkleCart
+        - heading "Cloud Slippers" [level=2] [ref=e506]
+        - status [ref=e507]:
+          - generic [ref=e508]:
+            - generic [ref=e510]:
+              - generic [ref=e511]: Regular price
+              - generic [ref=e513]: $49.98 USD
+              - generic [ref=e514]: Sale price
+              - generic [ref=e515]: $24.99 USD
+            - generic [ref=e516]: Sale
+        - generic [ref=e517]:
+          - link "Shipping" [ref=e518] [cursor=pointer]:
+            - /url: /policies/shipping-policy
+          - text: calculated at checkout.
+        - generic [ref=e519]:
+          - group "size" [ref=e520]:
+            - generic [ref=e521]: size
+            - radio "36-37 (for 35-36)" [checked] [ref=e522]
+            - generic [ref=e523] [cursor=pointer]: 36-37 (for 35-36)
+            - radio "38-39 (for 37-38)" [ref=e524]
+            - generic [ref=e525] [cursor=pointer]: 38-39 (for 37-38)
+            - radio "40-41 (for 39-40)" [ref=e526]
+            - generic [ref=e527] [cursor=pointer]: 40-41 (for 39-40)
+          - group "color" [ref=e528]:
+            - generic [ref=e529]: color
+            - radio "EVA cloud white" [checked] [ref=e530]
+            - generic [ref=e531] [cursor=pointer]: EVA cloud white
+            - radio "EVA cloud pink" [ref=e532]
+            - generic [ref=e533] [cursor=pointer]: EVA cloud pink
+            - radio "EVA cloud purple" [ref=e534]
+            - generic [ref=e535] [cursor=pointer]: EVA cloud purple
+            - radio "EVA cloud yellow" [ref=e536]
+            - generic [ref=e537] [cursor=pointer]: EVA cloud yellow
+            - radio "EVA cloud black" [ref=e538]
+            - generic [ref=e539] [cursor=pointer]: EVA cloud black
+        - generic [ref=e540]:
+          - generic [ref=e541]: Quantity
+          - generic [ref=e543]:
+            - button "Decrease quantity for Cloud Slippers" [ref=e544]:
+              - generic [ref=e545]: Decrease quantity for Cloud Slippers
+              - generic:
+                - img
+            - spinbutton "Quantity" [ref=e546]: "1"
+            - button "Increase quantity for Cloud Slippers" [ref=e547] [cursor=pointer]:
+              - generic [ref=e548]: Increase quantity for Cloud Slippers
+              - generic:
+                - img
+        - generic [ref=e552]:
+          - button "Add to cart" [ref=e553] [cursor=pointer]:
+            - generic [ref=e554]: Add to cart
+          - generic [ref=e556]:
+            - iframe [ref=e560]:
+              - generic "PayPal" [ref=f8e2]:
+                - link "Pay with PayPal" [ref=f8e5] [cursor=pointer]
+            - link "More payment options" [ref=e562] [cursor=pointer]:
+              - /url: "#"
+        - group [ref=e564]:
+          - button "Share" [ref=e565] [cursor=pointer]:
+            - img [ref=e567]
+            - text: Share
+        - generic [ref=e571]:
+          - img "4.67 out of 5.0 stars" [ref=e572]:
+            - generic [ref=e573]: ★★★★★
+          - paragraph [ref=e574]:
+            - text: (3)
+            - generic [ref=e575]: 3 total reviews
+        - link "View full details" [ref=e576] [cursor=pointer]:
+          - /url: /products/cute-cloud-slippers-female-summer-wear-indoor-home-non-slip-feces-sense-net-red-eva-sandals-home-wholesale-ins
+          - text: View full details
+          - img [ref=e577]
+    - generic [ref=e583]:
+      - generic [ref=e584]:
+        - heading "Let customers speak for us" [level=2] [ref=e585]
+        - generic [ref=e586]:
+          - img "4.61 stars" [ref=e587]:
+            - generic [ref=e588]: 
+            - generic [ref=e589]: 
+            - generic [ref=e590]: 
+            - generic [ref=e591]: 
+            - generic [ref=e592]: 
+          - generic [ref=e593]:
+            - text: from 682 reviews
+            - img [ref=e594]
+      - generic [ref=e598]:
+        - generic [ref=e599]:
+          - generic [ref=e600]:
+            - img "5 stars" [ref=e601]:
+              - generic [ref=e602]: 
+              - generic [ref=e603]: 
+              - generic [ref=e604]: 
+              - generic [ref=e605]: 
+              - generic [ref=e606]: 
+            - paragraph [ref=e609]: Shipping was fast and the product is OK
+          - generic [ref=e611]: Erika Rolfson
+          - link "Astronaut Starry Sky Lamp" [ref=e612] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e613]
+        - generic [ref=e614]:
+          - generic [ref=e615]:
+            - img "5 stars" [ref=e616]:
+              - generic [ref=e617]: 
+              - generic [ref=e618]: 
+              - generic [ref=e619]: 
+              - generic [ref=e620]: 
+              - generic [ref=e621]: 
+            - paragraph [ref=e624]: Garno. Delivery shwidka,
+          - generic [ref=e626]: Niko Davis
+          - link "Astronaut Starry Sky Lamp" [ref=e627] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e628]
+        - generic [ref=e629]:
+          - generic [ref=e630]:
+            - img "5 stars" [ref=e631]:
+              - generic [ref=e632]: 
+              - generic [ref=e633]: 
+              - generic [ref=e634]: 
+              - generic [ref=e635]: 
+              - generic [ref=e636]: 
+            - paragraph [ref=e639]: Child is very happy, good quality, good colours
+          - generic [ref=e641]: Laurel Kerluke
+          - link "Astronaut Starry Sky Lamp" [ref=e642] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e643]
+        - generic [ref=e644]:
+          - generic [ref=e645]:
+            - img "5 stars" [ref=e646]:
+              - generic [ref=e647]: 
+              - generic [ref=e648]: 
+              - generic [ref=e649]: 
+              - generic [ref=e650]: 
+              - generic [ref=e651]: 
+            - paragraph [ref=e654]: Ordered 18/10/2024 got 5/11/2024. Chic, the thing, the son is satisfied.
+          - generic [ref=e656]: Rosina Breitenberg
+          - link "Astronaut Starry Sky Lamp" [ref=e657] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e658]
+        - generic [ref=e659]:
+          - generic [ref=e660]:
+            - img "5 stars" [ref=e661]:
+              - generic [ref=e662]: 
+              - generic [ref=e663]: 
+              - generic [ref=e664]: 
+              - generic [ref=e665]: 
+              - generic [ref=e666]: 
+            - paragraph [ref=e669]:
+              - text: Having known 2 pieces, SBY and friends, yak
+              - text: Delivery shvidka, up to 2 days
+              - text: Dear Seller
+          - generic [ref=e671]: Vivienne Orn
+          - link "Astronaut Starry Sky Lamp" [ref=e672] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e673]
+        - generic [ref=e674]:
+          - generic [ref=e675]:
+            - img "5 stars" [ref=e676]:
+              - generic [ref=e677]: 
+              - generic [ref=e678]: 
+              - generic [ref=e679]: 
+              - generic [ref=e680]: 
+              - generic [ref=e681]: 
+            - paragraph [ref=e684]: Child is very happy, good quality, good colours
+          - generic [ref=e686]: Lois Torphy
+          - link "Astronaut Starry Sky Lamp" [ref=e687] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e688]
+        - generic [ref=e689]:
+          - generic [ref=e690]:
+            - img "5 stars" [ref=e691]:
+              - generic [ref=e692]: 
+              - generic [ref=e693]: 
+              - generic [ref=e694]: 
+              - generic [ref=e695]: 
+              - generic [ref=e696]: 
+            - paragraph [ref=e699]: Super cool guy that generates really cool looking galaxies and stars just be careful cause the stars are lasers and they will fry your eyeballs i went blind but still great
+          - generic [ref=e701]: Jerad Olson
+          - link "Astronaut Starry Sky Lamp" [ref=e702] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e703]
+        - generic [ref=e704]:
+          - generic [ref=e705]:
+            - img "5 stars" [ref=e706]:
+              - generic [ref=e707]: 
+              - generic [ref=e708]: 
+              - generic [ref=e709]: 
+              - generic [ref=e710]: 
+              - generic [ref=e711]: 
+            - paragraph [ref=e714]: It is incredible is a very good product for its price and projects very well everything of excellent quality and
+          - generic [ref=e716]: Dariana Hauck
+          - link "Astronaut Starry Sky Lamp" [ref=e717] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e718]
+        - generic [ref=e719]:
+          - generic [ref=e720]:
+            - img "5 stars" [ref=e721]:
+              - generic [ref=e722]: 
+              - generic [ref=e723]: 
+              - generic [ref=e724]: 
+              - generic [ref=e725]: 
+              - generic [ref=e726]: 
+            - paragraph [ref=e729]: ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+          - generic [ref=e731]: Noe Schneider
+          - link "Astronaut Starry Sky Lamp" [ref=e732] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e733]
+        - generic [ref=e734]:
+          - generic [ref=e735]:
+            - img "5 stars" [ref=e736]:
+              - generic [ref=e737]: 
+              - generic [ref=e738]: 
+              - generic [ref=e739]: 
+              - generic [ref=e740]: 
+              - generic [ref=e741]: 
+            - paragraph [ref=e744]: ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+          - generic [ref=e746]: Kobe Rowe
+          - link "Astronaut Starry Sky Lamp" [ref=e747] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e748]
+        - generic [ref=e749]:
+          - generic [ref=e750]:
+            - img "5 stars" [ref=e751]:
+              - generic [ref=e752]: 
+              - generic [ref=e753]: 
+              - generic [ref=e754]: 
+              - generic [ref=e755]: 
+              - generic [ref=e756]: 
+            - paragraph [ref=e759]: Product as described. Looks like the picture. The shipment arrived ahead of time. Price as much as possible on the plus side.
+          - generic [ref=e761]: Julia Kertzmann
+          - link "Astronaut Starry Sky Lamp" [ref=e762] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e763]
+        - generic [ref=e764]:
+          - generic [ref=e765]:
+            - img "5 stars" [ref=e766]:
+              - generic [ref=e767]: 
+              - generic [ref=e768]: 
+              - generic [ref=e769]: 
+              - generic [ref=e770]: 
+              - generic [ref=e771]: 
+            - paragraph [ref=e774]: I decided to purchase this product after seeing several videos about it. I absolutely love it! I've used this on my bathtub, wooden doors, trim, wherever needed some extra scrubbing, especially from kids and dogs. Highly recommend this! It cleaned my doors so easily. This is such an efficient purchase.
+          - generic [ref=e776]: Madie Koss
+          - link "Electric Floor Scrubber" [ref=e777] [cursor=pointer]:
+            - /url: /products/new-7-in-1-cordless-electric-cleaning-brush-long-handle-retractable-bathroom-toilet-floor-electric-brush-electric-mop#judgeme_product_reviews
+            - img "Electric Floor Scrubber" [ref=e778]
+        - generic [ref=e779]:
+          - generic [ref=e780]:
+            - img "5 stars" [ref=e781]:
+              - generic [ref=e782]: 
+              - generic [ref=e783]: 
+              - generic [ref=e784]: 
+              - generic [ref=e785]: 
+              - generic [ref=e786]: 
+            - paragraph [ref=e789]: This item has a lot of uses around the house to clean from floors to ceiling. It is very efective to clean my bathroom corners where mold accumulates. Since it has several brushes i have been able to use it to wash my bathroom plastic doors, the washbasin, bathtube, toilets and everything else. Yesterday, My husband discovered he can clean his truck inside and out in a third of the time he usually does!! We both just love it.
+          - generic [ref=e791]: Imelda Hilpert
+          - link "Electric Floor Scrubber" [ref=e792] [cursor=pointer]:
+            - /url: /products/new-7-in-1-cordless-electric-cleaning-brush-long-handle-retractable-bathroom-toilet-floor-electric-brush-electric-mop#judgeme_product_reviews
+            - img "Electric Floor Scrubber" [ref=e793]
+        - generic [ref=e794]:
+          - generic [ref=e795]:
+            - img "5 stars" [ref=e796]:
+              - generic [ref=e797]: 
+              - generic [ref=e798]: 
+              - generic [ref=e799]: 
+              - generic [ref=e800]: 
+              - generic [ref=e801]: 
+            - paragraph [ref=e804]: The 9in 1 power scrubber works great and is a good addition to my cleaning routine. It's easy to assemble and mounts on my wall in the bathroom with a peal and stick clip for charging/storage. Charging takes about two hours and the charge lasts for about an hour of cleaning. The brushes are easy to put on and remove. They seem to be sturdy and durable with enough power to scrub my tub surround to remove soap scum buildup. I would purchase again
+          - generic [ref=e806]: Princess Abshire
+          - link "Electric Floor Scrubber" [ref=e807] [cursor=pointer]:
+            - /url: /products/new-7-in-1-cordless-electric-cleaning-brush-long-handle-retractable-bathroom-toilet-floor-electric-brush-electric-mop#judgeme_product_reviews
+            - img "Electric Floor Scrubber" [ref=e808]
+        - generic [ref=e809]:
+          - generic [ref=e810]:
+            - img "5 stars" [ref=e811]:
+              - generic [ref=e812]: 
+              - generic [ref=e813]: 
+              - generic [ref=e814]: 
+              - generic [ref=e815]: 
+              - generic [ref=e816]: 
+            - paragraph [ref=e819]: Thank you very cool night light😘😘😘😘
+          - generic [ref=e821]: Arvilla VonRueden
+          - link "Astronaut Starry Sky Lamp" [ref=e822] [cursor=pointer]:
+            - /url: /products/2022-new-astronaut-starry-sky-lamp-projector-lamp-starry-atmosphere-night-light-astronaut-laser-nebula-lamp#judgeme_product_reviews
+            - img "Astronaut Starry Sky Lamp" [ref=e823]
+  - generic [ref=e829]:
+    - heading "Subscribe to our emails" [level=2] [ref=e830]
+    - paragraph [ref=e832]: Subscribe to our mailing list for insider news, product launches, and more.
+    - generic [ref=e836]:
+      - textbox "Email" [ref=e837]
+      - generic: Email
+      - button "Subscribe" [ref=e838] [cursor=pointer]:
+        - img [ref=e840]
+  - contentinfo [ref=e843]:
+    - generic [ref=e845]:
+      - generic [ref=e846]:
+        - generic [ref=e850]:
+          - heading "Country/region" [level=2] [ref=e851]
+          - button "United States | USD $" [ref=e853] [cursor=pointer]:
+            - generic [ref=e854]: United States | USD $
+            - img [ref=e855]
+        - generic [ref=e858]:
+          - generic [ref=e859]: Payment methods
+          - list [ref=e860]:
+            - listitem [ref=e861]:
+              - img "PayPal" [ref=e862]
+            - listitem [ref=e868]:
+              - img "Venmo" [ref=e869]
+      - generic [ref=e875]:
+        - generic [ref=e876]:
+          - text: © 2026,
+          - link "SparkleCart" [ref=e877] [cursor=pointer]:
+            - /url: /
+        - link "Powered by Shopify" [ref=e879] [cursor=pointer]:
+          - /url: https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+        - list [ref=e880]:
+          - listitem [ref=e881]:
+            - text: ·
+            - link "Privacy policy" [ref=e883] [cursor=pointer]:
+              - /url: /policies/privacy-policy
+          - listitem [ref=e884]:
+            - text: ·
+            - link "Refund policy" [ref=e886] [cursor=pointer]:
+              - /url: /policies/refund-policy
+          - listitem [ref=e887]:
+            - text: ·
+            - link "Terms of service" [ref=e889] [cursor=pointer]:
+              - /url: /policies/terms-of-service
+          - listitem [ref=e890]:
+            - text: ·
+            - link "Shipping policy" [ref=e892] [cursor=pointer]:
+              - /url: /policies/shipping-policy
+```
