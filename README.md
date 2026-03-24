@@ -1,31 +1,72 @@
-# 🚀 Playwright TypeScript Automation Testing + API Testing 
+🚀 Playwright TypeScript Automation Testing + API Testing Framework
 
-A robust end-to-end test automation framework built using **Playwright + TypeScript** following best practices and scalable design principles.
+> 🔥 A powerful, scalable, and production-ready **End-to-End Automation Framework** built using Playwright + TypeScript covering **UI Testing, API Testing, and Visual Testing**.
 
-This repository demonstrates real-world UI automation scenarios including locators, dropdown handling, dynamic elements, frames, assertions, hooks, parallel execution, reporting, tracing, and more.
+---
+
+## 📌 Project Overview
+
+This repository demonstrates a **real-world automation framework** designed for modern applications with:
+
+- ✅ UI Automation Testing  
+- ✅ API Automation Testing  
+- ✅ Visual Testing (Snapshot Comparison)  
+- ✅ Data-Driven Testing  
+- ✅ Parallel Execution  
+- ✅ Reporting & Debugging  
+
+💡 Built using **industry best practices followed by top product companies**
+
+---
+
+## 🧠 Why This Project Stands Out (For Recruiters 🚀)
+
+✔ Covers **UI + API + Visual Testing (rare combination)**  
+✔ Real-world test scenarios (not beginner scripts)  
+✔ Strong **Page Object Model (POM)** implementation  
+✔ Clean, scalable & reusable framework  
+✔ Demonstrates **SDET-level architecture**  
+✔ CI/CD ready  
 
 ---
 
 ## 📌 Tech Stack
 
-- 🎭 Playwright
-- 🟦 TypeScript
-- 🟢 Node.js
-- 📦 npm
-- 📊 Allure Reporting
-- 📑 HTML Reporter
-- 🔄 Parallel Execution
-- 📸 Screenshots & Tracing
-- 🧪 Data-Driven Testing
+- 🎭 Playwright  
+- 🟦 TypeScript  
+- 🟢 Node.js  
+- 📦 npm  
+- 📊 Allure Reporting  
+- 📑 HTML Reporter  
+- 🔄 Parallel Execution  
+- 📸 Screenshots & Tracing  
 
 ---
 
-## 📂 Project Structure
+## 🏗️ Complete Project Structure
 
-Playwright-TypeScript-Automation
+
+📦 Playwright-TypeScript-Automation-API-Testing
 │
-├── tests/
-│ ├── apitest/
+├── 📂 pages/ → Page Object Model (POM)
+│ ├── CartPage.ts
+│ ├── HomePage.ts
+│ └── LoginPage.ts
+│
+├── 📂 tests/
+│
+│ ├── 📂 apitest/ → API Testing
+│ │ ├── CreateBookingJson.spec.ts
+│ │ ├── get_api.spec.ts
+│ │ ├── postApi_Request_01_createBooking.spec.ts
+│ │ └── put-api.spec.ts
+│
+│ ├── 📂 vstest/ → Visual Testing (Snapshot)
+│ │ ├── visualtesting.spec.ts
+│ │ ├── visual2.spec.ts
+│ │ ├── visualtesting.spec.ts-snapshots/
+│ │ └── visual2.spec.ts-snapshots/
+│
 │ ├── Annotation.spec.ts
 │ ├── AssertionsTypes.spec.ts
 │ ├── Authenticatedpopup.spec.ts
@@ -68,86 +109,84 @@ Playwright-TypeScript-Automation
 │ ├── Tracing.spec.ts
 │ ├── XPathAxes.spec.ts
 │ ├── XPathLocators.spec.ts
+│ ├── accessibility.spec.ts
 │ ├── dropdowncontainsduplicates.spec.ts
 │ ├── handletabs.spec.ts
 │ ├── hooks2.spec.ts
+│ ├── pomtest.spec.ts
 │ ├── promptDialog.spec.ts
-│ └── singleselectdropdown.spec.ts
+│ ├── singleselectdropdown.spec.ts
+│ └── sparklecart.spec.ts
 │
-├── Screenshots/
-├── TestData/
-├── allure-report/
-├── allure-results/
-├── html-report/
-├── playwright.config.ts
-├── package.json
-├── package-lock.json
-├── results.json
-├── results.xml
-└── trace.zip
+├── 📂 Screenshots/ → Captured screenshots
+├── 📂 TestData/ → Test data (JSON)
+├── 📂 allure-report/ → Allure HTML report
+├── 📂 allure-results/ → Raw results
+├── 📂 html-report/ → Playwright report
+│
+├── 📜 playwright.config.ts → Config file
+├── 📜 package.json
+├── 📜 package-lock.json
+├── 📜 results.json
+├── 📜 results.xml
+├── 📜 trace.zip
+└── 📜 README.md
 
+
+---
+
+## 🧪 Key Features Covered
+
+✔ Built-in Locators  
+✔ CSS & XPath Locators  
+✔ Dynamic Elements Handling  
+✔ Frames & Tabs Handling  
+✔ Authentication Popups  
+✔ Alerts & Dialog Handling  
+✔ Dropdown Handling (Single / Multi / Bootstrap / Autosuggest)  
+✔ Data-Driven Testing (JSON)  
+✔ Hard vs Soft Assertions  
+✔ Hooks (Before/After)  
+✔ Parallel Execution  
+✔ Tracing & Screenshots  
+✔ Test Grouping & Tagging  
+✔ Handling Flaky Tests  
+✔ Timeout Handling  
+✔ Web Tables  
+✔ Pagination  
+✔ API Testing (CRUD operations)  
+✔ Visual Regression Testing  
 
 ---
 
 ## ⚙️ Installation
 
-Clone the repository:
-
 ```bash
 git clone https://github.com/your-username/Playwright-TypeScript-Automation.git
-
-Navigate into project:
-
 cd Playwright-TypeScript-Automation
-
-Install dependencies:
-
 npm install
-
-Install Playwright browsers:
-
 npx playwright install
 ▶️ Running Tests
-
-Run all tests:
-
 npx playwright test
-
-Run specific test:
-
-npx playwright test tests/Myfirsttest.spec.ts
-
-Run in headed mode:
-
 npx playwright test --headed
-
-Run in debug mode:
-
 npx playwright test --debug
 📊 Reporting
 HTML Report
 npx playwright show-report
 Allure Report
 allure serve allure-results
-🔥 Key Features Covered
 
-✔ Built-in Locators
-✔ CSS & XPath Locators
-✔ Dynamic Elements Handling
-✔ Frames & Tabs Handling
-✔ Authentication Popups
-✔ Alerts & Dialog Handling
-✔ Dropdown (Single / Multi / Bootstrap / Autosuggest)
-✔ Data-Driven Testing (JSON)
-✔ Hard vs Soft Assertions
-✔ Hooks (Before/After)
-✔ Parallel Execution
-✔ Tracing & Screenshots
-✔ Test Grouping & Tagging
-✔ Handling Flaky Tests
-✔ Timeout Handling
-✔ Web Tables
-✔ Pagination
+🔄 CI/CD Ready
+GitHub Actions compatible
+Jenkins / Azure DevOps ready
+Supports automated pipelines
+
+🎯 Ideal For
+QA Engineers
+Automation Testers
+SDET Engineers
+QA Leads / Test Leads
+Recruiters evaluating automation skills
 
 👨‍💻 Author
 
@@ -160,5 +199,8 @@ SDET | QA | Automation Engineer
 
 ⭐ Support
 
-If this repository helped you, please ⭐ star it to support and motivate further contributions.
+If this repository helped you, please ⭐ star it to support and motivate further contributions in it.
+
+
+
 
